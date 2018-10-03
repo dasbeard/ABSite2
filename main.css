@@ -1,0 +1,116 @@
+body{
+  color: black;
+  background-color: none;
+}
+
+.header{
+  height: 60vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(./assets/black-coffee-cellphone-coffee.jpg);
+  padding: 20% 0 0 0;
+}
+
+.header .slogan{
+  width: 100%;
+  padding: 2% 0;
+  margin-top: -150px;
+  background-color: rgba(125, 126, 127, .9);
+  text-align: center;
+}
+
+.bottomSection{
+  padding: 0;
+}
+
+.aboutUs{
+  background-color: #4e7082;
+  height: 500px;
+  transform: skew(0deg, 2deg) translateY(-50px);
+}
+
+.aboutUs .aboutContent{
+  transform: skew(0deg, -2deg);
+  padding: 0 10%;
+}
+
+
+.aboutPoints img{
+  max-width: 40%;
+}
+
+
+.contact{
+  height: 65vh;
+  margin-top: -75px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('./assets/agreement-businessman-close-up-872957.jpg');
+  padding-top: 40px;
+  transform: skew(0deg, 2deg);
+}
+
+.contact form, .contact h1{
+  transform: skew(0deg, -2deg);
+}
+
+.contact h1{
+  text-align: center;
+  margin-top: 0;
+  /* padding-top: 5%; */
+  font-size: 4em;
+  padding-bottom: .5em;
+  color: #ffffff;
+  text-shadow: 4px 4px 15px #000000;
+}
+
+.contact form{
+  width: 100%;
+  padding: 2% 10%;
+  background-color: rgba(125, 126, 127, .9);
+}
+
+.bottom{
+  height: 45px;
+  margin-top: -23px;
+  background-color: #000000;
+}
+
+.first{
+  text-align: right;
+  line-height: 3em;
+
+}
+
+.second{
+  text-align: right;
+  line-height: 3em;
+}
+
+.selector{
+  height: 2.5em;
+}
+
+.aboutProj{
+  text-align: center;
+}
+
+.aboutProj textarea{
+  width: 60% !important;
+}
+
+
+
+.submit{
+  line-height: 4em;
+}
+
+.submit button{
+  width: 25%;
+}
