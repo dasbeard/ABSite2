@@ -28,7 +28,7 @@ body{
 
 .aboutUs{
   background-color: #4e7082;
-  height: 500px;
+  /* height: 500px; */
   transform: skew(0deg, 2deg) translateY(-50px);
 }
 
@@ -37,11 +37,13 @@ body{
   padding: 0 10%;
 }
 
-
 .aboutPoints img{
-  max-width: 40%;
+  max-height: 150px;
 }
 
+.iconRow{
+  padding-bottom: 2.5em;
+}
 
 .contact{
   height: 65vh;
